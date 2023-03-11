@@ -1,0 +1,8 @@
+body{
+    /*scroll-behavior: smooth;*/
+    /*background-color: aqua;*/
+    background-image: url("./images/nature4.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}

@@ -6,5 +6,10 @@ class Arithmetic
     System.out.println(a*b);
     System.out.println(a/b);
     System.out.println(a%b);
+    
+    System.out.println(a+"Rahul"+b);
+    System.out.println(a+b+"Rahul");
+    System.out.println("Rahul"+a+b);
+   
 }
 }

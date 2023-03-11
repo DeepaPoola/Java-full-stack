@@ -1,5 +1,5 @@
 let i = 10;
-do {
+/*do {
     console.log(i);
     i = i + 1
 }
@@ -8,9 +8,9 @@ while (i <= 0)
 for (let i = 10; i <= 0; i = i + 1) {
     console.log(i);
 }
-
-/*while(i<=20)
+*/
+while(i<=20)
 {
     console.log(i)
     i++;
-}*/
+}

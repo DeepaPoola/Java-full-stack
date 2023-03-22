@@ -1,9 +1,9 @@
 import Navbar from './Navbar/Navbar'
-import User from './User/User'
+import Message from './ReactExpFunc/Message'
 let App=()=>{
    return <>
    <Navbar/>
-   <User/>
+   <Message/>
    </>
    
 }

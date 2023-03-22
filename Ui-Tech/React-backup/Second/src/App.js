@@ -1,9 +1,8 @@
 import Navbar from './Navbar/Navbar'
-import User from './User/User'
 let App=()=>{
    return <>
    <Navbar/>
-   <User/>
+   <h1>Gd mrng</h1>
    </>
    
 }

@@ -1,9 +1,9 @@
 import Navbar from './Navbar/Navbar'
-import Registration from './Form/Registration'
+import Employee from './Employee/Employee'
 let App=()=>{
    return <>
    <Navbar/>
-   <Registration/>
+   <Employee/>
    </>
    
 }

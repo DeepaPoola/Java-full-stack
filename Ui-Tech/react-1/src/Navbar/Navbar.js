@@ -7,14 +7,18 @@ class Navbar extends React.Component{
              <Link to="/home" className="navbar-brand">React Router-Dom 5</Link>
              <div className="ml-auto">
                  <ul className="navbar-nav">
+                  
                    <li className="nav-list">
-                    <Link to="/home" className="nav-link">Home</Link>
+                    <Link to="/message" className="nav-link">Message</Link>
+                
                    </li>
                    <li className="nav-list">
-                    <Link to="/about" className="nav-link">About</Link>
+                    <Link to="/counter" className="nav-link">Counter</Link>
+                
                    </li>
                    <li className="nav-list">
-                    <Link to="/contact" className="nav-link">Contact</Link>
+                    <Link to="/factorial" className="nav-link">Fact</Link>
+                
                    </li>
                    
                  </ul>

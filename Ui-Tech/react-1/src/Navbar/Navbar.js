@@ -10,21 +10,18 @@ class Navbar extends React.Component{
                   
                    
                  <li className="nav-list">
-                    <Link to="/message" className="nav-link">Message</Link>
+                    <Link to="/products" className="nav-link">Products</Link>
                 
                    </li>
                    <li className="nav-list">
-                    <Link to="/registration" className="nav-link">Registration</Link>
+                    <Link to="/create" className="nav-link">Create</Link>
                 
                    </li>
                    <li className="nav-list">
-                    <Link to="/user" className="nav-link">User</Link>
+                    <Link to="/admin" className="nav-link">Admin</Link>
                 
                    </li>
-                   <li className="nav-list">
-                    <Link to="/picture" className="nav-link">Picture</Link>
-                
-                   </li>
+                   
                  
                    
                  </ul>

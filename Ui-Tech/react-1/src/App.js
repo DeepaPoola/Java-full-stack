@@ -4,11 +4,10 @@ import Navbar from './Navbar/Navbar'
 //import User from './User/User'
 //import {Provider} from 'react-redux'
 //import {store} from './store'
-import Message from './Message/Message'
-import Registration  from './Form/Registration'
-import User from './User/User'
-import Picture from './Picture/Picture'
-
+import ProductList from './Products/ProductList'
+import ProductAdmin from './Products/ProductAdmin'
+import CreateProduct from './Products/CreateProduct'
+import UpdateProduct from './Products/UpdateProduct'
 class App extends React.Component{
    render(){
    return <>
@@ -17,10 +16,10 @@ class App extends React.Component{
    <Navbar/>
    
    <Routes>
-      <Route path="/message" element={<Message/>}/>
-      <Route path="/registration" element={<Registration/>}/>
-      <Route path="/user" element={<User/>}/>
-      <Route path="/picture" element={<Picture/>}/>
+      <Route path="/products" element={<ProductList/>}/>
+      <Route path="/create" element={<CreateProduct/>}/>
+      <Route path="/admin" element={<ProductAdmin/>}/>
+      <Route path="/update" element={<UpdateProduct/>}/>
       
    </Routes>
    </Router>

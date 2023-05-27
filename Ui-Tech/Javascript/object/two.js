@@ -12,7 +12,7 @@ console.log(employee)
 
 /*console.log(Object.keys(emp));
 
-console.log(typeof(employee))
+console.log(typeof(employee))           
 for(var key in emp)
 {
     console.log(emp[key])

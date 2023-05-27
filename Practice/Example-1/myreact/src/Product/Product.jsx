@@ -30,7 +30,8 @@ let Product=()=>{
                       <td>{product.name}</td>
                       <td><img src={product.image}/></td>
                       <td>{product.price}</td>
-                      <td><i className="fa fa-minus-circle" onClick={decrHandler}></i>{product.qty}<i className="fa fa-plus-circle" onClick={incrHandler}></i></td>
+                      <td>
+                        <i className="fa fa-minus-circle" onClick={decrHandler}></i>{product.qty}<i className="fa fa-plus-circle" onClick={incrHandler}></i></td>
                       <td>{product.qty*product.price}</td>
                    </tr>
                </tbody>

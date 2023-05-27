@@ -17,9 +17,9 @@ public class HelloController {
 		 m.addAttribute("msg","Hello world");
 		 return "home";
 	}
-	public String info() {
+	/*public String info() {
 		
 		 return "home";
-	}
+	}*/
 	
 }

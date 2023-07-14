@@ -1,0 +1,48 @@
+
+
+.home{
+    background-image: url("./images/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+}
+.home h1{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10px;
+}
+.home p{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+.home .btn1{
+  margin-left: 30px;
+  border-radius: 10px;
+}
+.home .btn1:hover{
+    color: aqua;
+    background-color: blueviolet;
+}
+/*About starts*/
+.about p{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.about span{
+    color: aqua;
+}
+.card img{
+    height: 60vh;
+    width: 100%;
+}
+.btn2{
+  border-radius: 10px;
+}
+.btn2:hover{
+    color: brown;
+    background-color: black;
+}
+/*About ends*/
